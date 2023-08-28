@@ -1,0 +1,77 @@
+
+:root{
+    --body-color:#E4E9F7;
+    --sidebar-color:#FFF;
+    --primary-color:#a95557;
+    --primaryy-color:#a95557;
+    --primary-color-light:#F6F5FF;
+    --toggle-color:#ddd;
+    --text-color:#707070;
+    --head-color:#2f2f2f;
+    --csvbtn-clr:rgb(9, 125, 9);
+
+
+    --tran-02:all 0.2s ease;
+    --tran-03:all 0.3s ease;
+    --tran-04:all 0.4s ease;
+    --tran-05:all 0.5s ease;
+
+}
+html{
+-behavior: smooth;
+}
+
+  
+body.dark{
+    --body-color:#111924;
+    --sidebar-color:#16212f;
+    --primary-color:#8b8d9098;;
+    --primary-color-light:#323c4a3d;
+    --toggle-color:#FFF;
+    --text-color:#CCC;
+    --border-select:#a95557;
+    --primaryy-color:#a95557;
+    --csvbtn-clr:#8b8d9098;
+    --head-color:#dedada;
+
+
+}
+
+#tablemaindiv {
+    background-color: var(--sidebar-color);
+  }
+  
+  #TableHead {
+    /* Your custom styles for the table header */
+    color: white;
+    background: var(--primaryy-color);
+    font-size: 1.1rem;
+    font-weight: bold;
+    z-index: 0;
+    text-align: center;
+  }
+  #TableData{
+    color: var(--text-color);
+    text-align: center;
+    font-size: 18px;
+  }
+
+  #btnDownloadPdf {
+    margin: 10px;
+    background-color: var(--primary-color);
+    height: 37px;
+}
+#btnDownloadCsv{
+    margin: 10px;
+    background-color: var(--csvbtn-clr);
+    height: 37px;
+}
+#menuBtns{
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    margin: 10px;
+    border-right: solid 1px white;
+    border-left: solid 1px white;
+    color: white;
+}
